@@ -1,0 +1,33 @@
+{
+  "name": "num-lines",
+  "version": "0.0.0",
+  "description": "Count the number of lines in a string",
+  "license": "MIT",
+  "repository": "jamestalmage/num-lines",
+  "author": {
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "lines",
+    "count",
+    "string"
+  ],
+  "dependencies": {
+    "split-lines": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
